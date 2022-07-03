@@ -6,5 +6,5 @@ while True:
         break
     
 # Now height is a valid integer
-for row iin range(1, height + 1):
+for row in range(1, height + 1):
     print(' ' *(height - row) + '#' * row)
